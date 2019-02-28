@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.bigcontainer{
+	border-style: solid;
+	border-color: black;
+	width:100%;
+	height: 1000px;
+	align-content: center;
+	display:
+
+
+}
+
+.itemcontainer-1{
+	border-style: solid;
+	border-color: blue;
+	margin: auto;
+  	width: 90%;
+  	height: 500px;
+  	border: 3px solid green;
+  	padding: 10px;
+
+}
+.itemcontainer-2{
+	border-style: solid;
+	border-color: red;
+	width:100%;
+	height: 300px;
+
+
+/*
+}
+.itemcontainer-3{
+	border-style: solid;
+	border-color: black;
+	width:100%;
+	height: 1000px;
+
+}
+
+.itemcontainer-4{
+	border-style: solid;
+	border-color: black;
+	width:100%;
+	height: 1000px;
+*/
+ No newline at end of file
