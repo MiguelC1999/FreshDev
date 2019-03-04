@@ -1,0 +1,50 @@
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+	<title>Portfolio - Home</title>
+</head>
+<body>
+	<div class="header">
+
+	 <div class="navbar" id='nav'>
+       <ul>
+       	  <li><a href="index.html"></a>Homepagina</li>
+       	  <li><a href="projects.html"></a>Klantenspaarsysteem</li>
+       	  <li><a href="contact.html"></a>Merken</li>
+       	  <li><a href="bio.html"></a>Over Ons</li>
+       	  <li><a href="bio.html"></a>Contact</li>
+       	  <li><a href="bio.html"></a>Webshop</li>
+       	  <li><a href="bio.html"></a>Acties</li>
+       </ul>
+
+	 </div>
+
+</div>
+
+
+<div class="box"></div>
+
+
+<!-- add some javascript code -->
+
+   <script type="text/javascript">
+$(function() {
+    //caches a jQuery object containing the header element
+    var header = $(".navbar");
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 100) {
+            header.addClass("solidHeader");
+        } else {
+            header.removeClass("solidHeader");
+        }
+    });
+});
+   </script>
+
+</body>
+</html>
