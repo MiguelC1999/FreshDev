@@ -1,25 +1,14 @@
-  *{
-  padding: 0px;
-  margin:0px;
-  box-sizing: border-box;
+body{
+  margin:4px;
 }
-
-.header{
-
-  width: 100%;
-  height: 120px;
-  background-size: cover;
-  z-index:99;
-}
-
 .navbar{
   width: 100%;
-  padding: 20px;
+  padding: 0px;
   position: static;
   top: 0px;
   text-align: center;
   transition: .5s;
-  background-color:transparent;
+  background-color:red;
 }
 
 .navbar ul li{
@@ -43,7 +32,7 @@
     width: 80%;
     height: 2000px;
     background: #666666;
-    margin: 20px auto;
+    margin:auto;
 
 
 }
@@ -53,99 +42,47 @@
   .solidHeader ul li{
     color:#777;
 }
+/*
+.fullscreen-bg {
 
-.nav-bg {
-  position:;
-  top: ;
-  right: 0;
-  bottom:;
-  left: 0;
-  overflow: hidden;
+*/
+}
+.div_video{
 
 }
-
 .fullscreen-bg__video {
   position: absolute;
-  top: ;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 40%;
+  margin:auto;
 }
 
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
-    height: 300%;
-    top: -100%;
+    height: 100%;
+    top: 50%;
+    width:100%;
+    padding-bottom:0px;
   }
 }
 
 @media (max-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
-    width: 300%;
-    left: -100%;
+
   }
 }
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    background: url('.jpg') center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
     display: none;
   }
 }
- No newline at end of file
-      padding: 0px;
-      margin:0px;
-      box-sizing: border-box;
-     }
-
-     .header{
-       width: 100%;
-       height: 100%;
-       background-image:url(banner-orange.jpg);
-       background-size: cover;
-
-     }
-
-     .navbar{
-      width: 100%;
-      padding: 20px;
-      position: fixed;
-      top: 0px;
-      text-align: center;
-      transition: .5s;
-      background-color:transparent;
-     }
-
-     .navbar ul li{
-      list-style-type: none;
-      display:inline-block;
-      padding: 10px 50px;
-      color: white;
-      font-size: 24px;
-      font-family: sans-serif;
-      cursor: pointer;
-      border-radius:10px;
-      transition: .5s;
-     }
-
-     .navbar ul li:hover{
-      background: red;
-     }
-
-      .box{
-        width: 80%;
-        height: 2000px;
-        background: #666666;
-        margin: 20px auto;
+.outside{
+  width:100%;
+}
 
 
-      }
-      .solidHeader{
-      background-color:rgba(255,255,255,.5);
-      }
-      .solidHeader ul li{
-        color:#777;
-      }
