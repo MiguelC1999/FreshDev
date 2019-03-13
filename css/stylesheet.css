@@ -3,47 +3,119 @@ body {
 }
 
 .bigcontainer{
-	border-style: solid;
-	border-color: black;
+	border: 3px solid black;
 	width:100%;
-	height: 1000px;
+	height: 100%;
 	align-content: center;
-	display:
-
-
+  min-height: calc(100vh - 96px - 5%);
 }
 
+
+
 .itemcontainer-1{
-	border-style: solid;
-	border-color: blue;
-	margin: auto;
-  	width: 90%;
-  	height: 500px;
+	  margin: auto;
+    width: 80%;
+  	height: 240px;
+    margin-top: 20px;
   	border: 3px solid green;
   	padding: 10px;
 
 }
-.itemcontainer-2{
-	border-style: solid;
-	border-color: red;
-	width:100%;
-	height: 300px;
 
 
-/*
+@media screen and (max-width: 620px) {
+  .itemcontainer-1 {
+    height: 240px;
+  }
 }
-.itemcontainer-3{
-	border-style: solid;
-	border-color: black;
-	width:100%;
-	height: 1000px;
+@media screen and (min-width: 620px) {
+  .itemcontainer-1 {
+    height: 450px;
+  }
+}
 
+
+.itemcontainer-2{
+  border: 3px solid red;
+  margin: auto;
+  margin-top: 20px;
+	width:80%;
+  padding: 10px;
+  display:flex;
+}
+
+@media screen and (max-width: 620px) {
+  .itemcontainer-2 {
+    height: 240px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .itemcontainer-2 {
+    height: 450px;
+  }
+}
+
+#blok-1{
+    border: 3px solid red;
+    width:60%;
+    margin-left: -13px;
+    margin-top: -13px;
+    margin-bottom: -13px;
+}
+
+/* #blok-2{
+    border: 3px solid red;
+    width:40%;
+    height: 100%;
+} */
+
+
+.itemcontainer-3{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: px;
+  width: 80%;
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 620px) {
+  .itemcontainer-3 {
+    height: 240px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .itemcontainer-3 {
+    height: 450px;
+  }
 }
 
 .itemcontainer-4{
-	border-style: solid;
-	border-color: black;
-	width:100%;
-	height: 1000px;
-*/
- No newline at end of file
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: px;
+  width: 80%;
+  height: 100%;
+  border: 3px solid hotpink;
+  color: grey;
+  font-size: 12px;
+
+}
+
+
+/*hier begint de footer*/
+footer {
+
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #c9eee5;
+  color: black;
+  box-shadow: 5px 0px 0px #dedede;
+  text-align: center;
+  border-top: 3px solid #dedede;
+  font-size: 13px;
+}
