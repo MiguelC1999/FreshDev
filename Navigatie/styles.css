@@ -50,13 +50,14 @@ body{
 .div_video{
 
 }
+/*
 .fullscreen-bg__video {
   position: absolute;
   width: 80%;
   height: 40%;
   margin:auto;
 }
-
+*/
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 100%;
