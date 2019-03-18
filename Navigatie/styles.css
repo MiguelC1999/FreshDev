@@ -47,23 +47,27 @@ body{
 
 */
 }
-.div_video{
+
+
+.wrap-fullscreen-bg {
+    width: 200px;
+    overflow:hidden;
+    display:block;
+    height: 360px;
+}
+
+ .fullscreen-bg__video {
+  margin:40px;
 
 }
-/*
-.fullscreen-bg__video {
-  position: absolute;
-  width: 80%;
-  height: 40%;
-  margin:auto;
-}
-*/
+
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 100%;
     top: 50%;
     width:100%;
     padding-bottom:0px;
+
   }
 }
 
