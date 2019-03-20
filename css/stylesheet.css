@@ -59,29 +59,13 @@ body {
   }
 }
 
-#blok-1{
-    border: 3px solid black;
-    width:60%;
-    margin-left: -13px;
-    margin-top: -13px;
-    margin-bottom: -13px;
-}
-
-/* #blok-2{
-    border: 3px solid red;
-    width:40%;
-    height: 100%;
-} */
-
-
 .itemcontainer-3{
   display: flex;
   flex-direction: row;
   margin: auto;
   margin-top: 20px;
   width: 80%;
-  border: 3px solid black;
-  background-color: #aaabae;
+  border-top:3px solid black;
   font-family: 'Muli', sans-serif;
   padding: 10px;
 }
@@ -89,8 +73,8 @@ body {
 
 .cirkel{
   margin: auto;
-  width:150px;
-  height:150px;
+  width:250px;
+  height:250px;
   background-color:#a19166;
   border:3px solid black;
   border-radius: 50%;
