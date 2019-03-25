@@ -1,5 +1,6 @@
 body {
    margin: 0;
+   overflow-x:hidden;
 }
 
 .bigcontainer{
@@ -187,7 +188,7 @@ body{
   border-radius:10px;
   transition: .5s}
 
-  
+
   .navbar ul li:hover{
   background: #666;
 }
@@ -214,7 +215,7 @@ body{
 
 
 .wrap-fullscreen-bg {
-  width:80%;    
+  width:80%;
   overflow:hidden;
 
 }
@@ -223,7 +224,7 @@ body{
   width:80%;
   margin:-166px 0px -20px 141px;
 
-  
+
 
 
 }
@@ -259,5 +260,3 @@ body{
     top: 115px;
     right: 539px;
 }
-
-
