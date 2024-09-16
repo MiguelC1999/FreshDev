@@ -3,47 +3,162 @@ body {
 }
 
 .bigcontainer{
-	border-style: solid;
-	border-color: black;
+	/* border: 3px solid black; */
 	width:100%;
-	height: 1000px;
+	height: 100%;
 	align-content: center;
-	display:
-
-
+  min-height: calc(100vh - 96px - 5%);
 }
 
+
+
 .itemcontainer-1{
-	border-style: solid;
-	border-color: blue;
-	margin: auto;
-  	width: 90%;
-  	height: 500px;
-  	border: 3px solid green;
+	  margin: auto;
+    width: 80%;
+  	height: 240px;
+    margin-top: 20px;
+  	border: 3px solid black;
+    background-color: #aaabae;
+    font-family: 'Muli', sans-serif;
   	padding: 10px;
 
 }
-.itemcontainer-2{
-	border-style: solid;
-	border-color: red;
-	width:100%;
-	height: 300px;
 
 
-/*
+@media screen and (max-width: 620px) {
+  .itemcontainer-1 {
+    height: 240px;
+  }
 }
-.itemcontainer-3{
-	border-style: solid;
-	border-color: black;
-	width:100%;
-	height: 1000px;
+@media screen and (min-width: 620px) {
+  .itemcontainer-1 {
+    height: 450px;
+  }
+}
 
+
+.itemcontainer-2{
+  border: 3px solid black;
+  background-color: #aaabae;
+  font-family: 'Muli', sans-serif;
+  margin: auto;
+  margin-top: 20px;
+	width:80%;
+  padding: 10px;
+  display:flex;
+}
+
+@media screen and (max-width: 620px) {
+  .itemcontainer-2 {
+    height: 240px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .itemcontainer-2 {
+    height: 450px;
+  }
+}
+
+#blok-1{
+    border: 3px solid black;
+    width:60%;
+    margin-left: -13px;
+    margin-top: -13px;
+    margin-bottom: -13px;
+}
+
+/* #blok-2{
+    border: 3px solid red;
+    width:40%;
+    height: 100%;
+} */
+
+
+.itemcontainer-3{
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+  border: 3px solid black;
+  background-color: #aaabae;
+  font-family: 'Muli', sans-serif;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 620px) {
+  .itemcontainer-3 {
+    height: 240px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .itemcontainer-3 {
+    height: 450px;
+  }
 }
 
 .itemcontainer-4{
-	border-style: solid;
-	border-color: black;
-	width:100%;
-	height: 1000px;
-*/
- No newline at end of file
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: px;
+  width: 70%;
+  height: 100%;
+  font-family: 'Muli', sans-serif;
+  color: grey;
+  font-size: 15px;
+
+}
+
+
+/*hier begint de footer*/
+footer {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: black;
+  color: #aaabae;
+  box-shadow: 5px 0px 0px #dedede;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  border-top: 3px solid #dedede;
+
+
+}
+.socialmedia-footer{
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border: 3px solid black;
+}
+
+.openingstijden-footer{
+  width: 250px;
+
+  border: 3px solid black;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+.contactinfo-footer{
+  width: 250px;
+  border: 3px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.fab{
+
+  font-size: 60px;
+  COLOR: #a19166;
+  padding: 10px;
+
+}

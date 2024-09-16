@@ -1,0 +1,262 @@
+body {
+   margin: 0;
+   overflow-x:hidden;
+}
+
+.bigcontainer{
+    /* border: 3px solid black; */
+    width:100%;
+    height: 100%;
+    align-content: center;
+ min-height: calc(100vh - 96px - 5%);
+}
+
+
+
+.itemcontainer-1{
+      margin: auto;
+   width: 80%;
+     height: 240px;
+   margin-top: 20px;
+     border: 3px solid black;
+   background-color: #aaabae;
+   font-family: 'Muli', sans-serif;
+     padding: 10px;
+
+}
+
+
+@media screen and (max-width: 620px) {
+ .itemcontainer-1 {
+   height: 240px;
+ }
+}
+@media screen and (min-width: 620px) {
+ .itemcontainer-1 {
+   height: 450px;
+ }
+}
+
+
+.itemcontainer-2{
+ border: 3px solid black;
+ background-color: #aaabae;
+ font-family: 'Muli', sans-serif;
+ margin: auto;
+ margin-top: 20px;
+    width:80%;
+ padding: 10px;
+ display:flex;
+}
+
+@media screen and (max-width: 620px) {
+ .itemcontainer-2 {
+   height: 240px;
+ }
+}
+@media screen and (min-width: 620px) {
+ .itemcontainer-2 {
+   height: 450px;
+ }
+}
+
+#blok-1{
+   border: 3px solid black;
+   width:60%;
+   margin-left: -13px;
+   margin-top: -13px;
+   margin-bottom: -13px;
+}
+
+/* #blok-2{
+   border: 3px solid red;
+   width:40%;
+   height: 100%;
+} */
+
+
+.itemcontainer-3{
+ margin: auto;
+ margin-top: 20px;
+ width: 80%;
+ border: 3px solid black;
+ background-color: #aaabae;
+ font-family: 'Muli', sans-serif;
+ padding: 10px;
+}
+
+
+
+@media screen and (max-width: 620px) {
+ .itemcontainer-3 {
+   height: 240px;
+ }
+}
+@media screen and (min-width: 620px) {
+ .itemcontainer-3 {
+   height: 450px;
+ }
+}
+
+.itemcontainer-4{
+ margin: auto;
+ margin-top: 20px;
+ width: 70%;
+ height: 100%;
+ font-family: 'Muli', sans-serif;
+ color: grey;
+ font-size: 15px;
+
+}
+
+
+/*hier begint de footer*/
+footer {
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ vertical-align: middle;
+ width: 100%;
+ height: 100%;
+ padding: 10px;
+ margin-top: 20px;
+ background-color: black;
+ color: #aaabae;
+ box-shadow: 5px 0px 0px #dedede;
+ font-family: 'Muli', sans-serif;
+ text-align: center;
+ border-top: 3px solid #dedede;
+
+
+}
+.socialmedia-footer{
+ width: 200px;
+ padding-left: 20px;
+ padding-right: 20px;
+
+ border: 3px solid black;
+}
+
+.openingstijden-footer{
+ width: 250px;
+
+ border: 3px solid black;
+ padding-left: 200px;
+ padding-right: 200px;
+}
+
+
+.contactinfo-footer{
+ width: 250px;
+ border: 3px solid black;
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+
+.fab{
+
+ font-size: 60px;
+ COLOR: #a19166;
+ padding: 10px;
+
+}
+
+
+
+body{
+  margin:1px;
+}
+.navbar{
+    width: 81%;
+    transition: .5s;
+    background-color: #a19166;
+    margin: auto;
+    border-color: #2196F3;
+    border: 3px solid black;
+}
+
+.navbar ul li{
+  list-style-type: none;
+  display:inline-block;
+  padding: 10px 32px;
+  color: white;
+  font-size: 21px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius:10px;
+  transition: .5s}
+
+
+  .navbar ul li:hover{
+  background: #666;
+}
+/*
+.box{
+    width: 80%;
+    height: 2000px;
+    background: #666666;
+    margin:auto;
+*/
+
+}
+  .solidHeader{
+  background-color:rgba(255,255,255,.5);
+}
+  .solidHeader ul li{
+    color:#777;
+}
+/*
+.fullscreen-bg {
+
+*/
+}
+
+
+.wrap-fullscreen-bg {
+  width:80%;
+  overflow:hidden;
+
+}
+
+ .fullscreen-bg__video {
+  width:80%;
+  margin:-166px 0px -20px 141px;
+
+
+
+
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width:80%;
+    padding-bottom:26px;
+    border:3px;
+
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('WHYYUTESTINME.jpg') center center / cover no-repeat;
+  }
+
+
+.outside{
+  width:100%;
+}
+
+
+#foto {
+    position: absolute;
+    top: 115px;
+    right: 539px;
+}
